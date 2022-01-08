@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 3em;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(187, 41, 138);
+        }
+
+        a:hover {
+            background-color: blue;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .importante::after {
+            content: "[IMPORTANTE]";
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" class="importante">Repositório GITHUB</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="blank">YouTube</a></li>
+    </ul>
+</body>
+</html>

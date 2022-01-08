@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>ABRA EM OUTROS DISPOSITIVOS E VEJA A MÁGICA ACONTECENDO!</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="grande">
+    </picture>
+
+    <h1>Áudios</h1>
+    <p>Reproduzindo um áudio através de HTML5.</p>
+    <audio preload="metadata" controls loop>
+        <source src="media/enthusiasm.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Vídeos Locais</h1>
+    <p>Reproduzindo um vídeo através de HTML5.</p>
+    <video src="media/QISS.mp4" poster="media/Captura de tela 2021-12-06 142843.png" width="800" controls></video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

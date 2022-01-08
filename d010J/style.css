@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+}
+
+header {
+    margin-bottom: 2px;
+    padding-bottom: 4px;
+}
+
+h1 {
+    font-family: "Open Sans Condensed";
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-family: "Montserrat";
+    margin-top: -16px;
+    margin-left: 29px;
+}
+
+p {
+    font-weight: 450;
+}
+
+nav > a {
+    font-family: "Libre Franklin";
+    text-decoration: none;
+    color: #F2F2F2;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    color: #7F5B3E;
+}
+
+nav > a:active {
+    color: white;
+}
+
+.corbcima {
+    background-color: #FF790E;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+main {
+    background-color: #FF9E50;
+    font-family: "Libre Franklin";
+    font-size: 1.2em;
+    padding: 8px 8px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2px;
+    padding: 2px;
+}
+
+img {
+    border: 5px solid #7F5B3E;
+    border-radius: 15px;
+    box-shadow: 3px 4px 1px black;
+}
