@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+main {
+    background-color: white;
+}
+
+#normal {
+    
+}
+#fotinho {
+    background-image: url(imgs/1127823.jpg);
+    height: 300px;
+    
+}
+
+#fotinho > p {
+    color: white;
+    background-color: rgba(248, 52, 52, 0.329);
+    width: fit-content;
+}
+
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+p {
+    padding: 25px;
+    font-size: 1.5em;    
+}
